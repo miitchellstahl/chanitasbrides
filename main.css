@@ -266,7 +266,7 @@ a {
 }
 .temple {
   left: 0;
-  bottom: 0;
+  bottom: -1.6rem;
   /* bottom: 60rem; */
   position: absolute;
 }
