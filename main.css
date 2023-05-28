@@ -345,7 +345,7 @@ a {
 @media only screen and (max-width: 500px) {
   .hero-img {
     height: 4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     border-radius: 5px;
   }
   .temple {
