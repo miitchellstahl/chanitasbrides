@@ -334,6 +334,10 @@ a {
   .flag {
     height: 20rem;
   }
+  .header {
+    align-items: center;
+  }
+
   .temple {
     width: 15rem;
     bottom: -0.95rem;
