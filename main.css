@@ -9,6 +9,14 @@
 body {
   color: var(--black);
   overflow-x: hidden;
+  position: relative;
+}
+
+.flag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -10;
 }
 
 * {
@@ -151,7 +159,7 @@ a {
 }
 
 .header {
-  margin-top: 2rem;
+  padding-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
