@@ -19,6 +19,10 @@ body {
   z-index: -10;
 }
 
+.section_hero h1 {
+  margin-bottom: 1rem;
+}
+
 * {
   font-family: "Cinzel", serif;
 }
@@ -188,6 +192,10 @@ a {
   padding: 2rem;
 }
 
+.text_holder {
+  margin-top: 1rem;
+}
+
 .header img {
   width: 10rem;
 }
@@ -231,9 +239,11 @@ a {
   margin-top: 9rem;
   display: flex;
   justify-content: flex-end;
-  overflow-x: hidden;
 }
 
+/* .section_box {
+  overflow-x: hidden;
+} */
 .anchor {
   position: absolute;
   top: 0;
@@ -259,6 +269,10 @@ a {
 @media only screen and (max-width: 1521px) {
   .padding-global {
     padding: 0 2rem;
+  }
+
+  .header {
+    padding: 2rem 2rem;
   }
 }
 
@@ -290,8 +304,11 @@ a {
   }
 }
 @media only screen and (max-width: 800px) {
+  .flag {
+    height: 20rem;
+  }
   .temple {
-    width: 50rem;
+    width: 15rem;
   }
   .left_flex {
     flex-direction: column;
@@ -303,10 +320,6 @@ a {
   }
 }
 @media only screen and (max-width: 630px) {
-  .temple {
-    width: 40rem;
-  }
-
   .text_holder h1 {
     font-size: 35px;
   }
@@ -333,6 +346,9 @@ a {
     height: 4rem;
     margin-bottom: 0;
     border-radius: 5px;
+  }
+  .temple {
+    width: 12rem;
   }
 }
 
