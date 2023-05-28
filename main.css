@@ -351,6 +351,14 @@ a {
   .temple {
     width: 12rem;
   }
+
+  .section {
+    margin-top: 1rem;
+  }
+
+  .header {
+    padding: 1rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
