@@ -176,6 +176,9 @@ a {
 }
 
 .thatsme {
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
   color: var(--white);
 }
 .wedding {
@@ -430,6 +433,10 @@ a {
 
   .arrow-container {
     right: -3rem;
+  }
+
+  .thatsme {
+    position: static;
   }
 
   .arrow-container h3 {
