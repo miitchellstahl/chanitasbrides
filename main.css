@@ -12,6 +12,11 @@ body {
   position: relative;
 }
 
+#header-button {
+  padding: 1rem 1rem;
+  font-size: 15px;
+}
+
 .flag {
   height: 30rem;
   position: absolute;
@@ -158,6 +163,10 @@ a {
   width: 15rem;
   border-radius: 20px;
 }
+
+.thatsme {
+  color: var(--white);
+}
 .wedding {
   width: 15rem;
   border-radius: 20px;
@@ -166,7 +175,7 @@ a {
 .header {
   padding-top: 2rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
