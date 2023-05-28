@@ -389,4 +389,12 @@ a {
   .arrow {
     height: 5rem;
   }
+
+  .left_flex {
+    align-items: center;
+  }
+
+  .box_flex {
+    text-align: center;
+  }
 }
