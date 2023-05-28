@@ -326,6 +326,7 @@ a {
   }
   .temple {
     width: 15rem;
+    bottom: -0.95rem;
   }
   .left_flex {
     flex-direction: column;
@@ -366,6 +367,7 @@ a {
   }
   .temple {
     width: 12rem;
+    bottom: -0.8rem;
   }
 
   .section {
