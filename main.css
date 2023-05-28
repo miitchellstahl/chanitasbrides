@@ -231,6 +231,7 @@ a {
   margin-top: 9rem;
   display: flex;
   justify-content: flex-end;
+  overflow-x: hidden;
 }
 
 .anchor {
