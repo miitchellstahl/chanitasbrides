@@ -5,6 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+#less-bold {
+  font-weight: 400;
+}
+
+.photo-container h4 {
+  font-weight: 500;
+}
 
 body {
   color: var(--black);
@@ -88,6 +95,10 @@ a {
   margin: 0 auto;
 }
 
+.arrow {
+  height: 8rem;
+}
+
 .arrow-container {
   display: flex;
   flex-direction: column;
@@ -96,7 +107,7 @@ a {
   height: 10rem;
   position: absolute;
   top: 5rem;
-  right: -8rem;
+  right: -6rem;
 }
 
 .photo-container {
