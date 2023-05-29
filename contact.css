@@ -24,6 +24,10 @@ textarea {
   font-family: "Montserrat", sans-serif;
 }
 
+.form-bottom button {
+  cursor: pointer;
+}
+
 textarea {
   padding-top: 1rem;
 }
