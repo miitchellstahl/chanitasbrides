@@ -34,20 +34,17 @@ textarea {
 
 ::-webkit-input-placeholder {
   /* Edge */
-  color: black;
+  color: var(--black);
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: black;
+  color: var(--black);
 }
 
-/* ::placeholder {
-  color: black;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-} */
+::placeholder {
+  color: var(--black);
+}
 
 #comments {
   width: 40rem;
