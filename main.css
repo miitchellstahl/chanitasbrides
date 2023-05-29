@@ -198,15 +198,12 @@ a {
 }
 
 .button:hover {
-  background-color: var(--black);
+  background-color: #73477d;
+  color: white;
 }
 
 .button {
   transition: 200ms ease-in;
-}
-
-.menu__link a:hover {
-  color: var(--primary-purple);
 }
 
 .box_flex {
