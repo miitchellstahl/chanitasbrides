@@ -1,0 +1,106 @@
+.email {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.section_hero h5 {
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  padding: 4rem 2rem;
+}
+
+.form input {
+  height: 3rem;
+  width: 15rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+  border: 0 solid transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+#comments {
+  width: 40rem;
+  height: 10rem;
+}
+
+.form-top {
+  display: flex;
+  gap: 10rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-bottom button {
+  background-color: #643072;
+  width: 10rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .form-top {
+    gap: 2rem;
+  }
+
+  #comments {
+    width: 32rem;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .form-top {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-left {
+    width: 100%;
+  }
+
+  .form-right {
+    width: 100%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  #comments {
+    width: 100%;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    margin-top: 0;
+  }
+  .form-bottom button {
+    margin: 0 auto;
+  }
+
+  .form {
+    padding-bottom: 0;
+  }
+}
