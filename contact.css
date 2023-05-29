@@ -63,12 +63,12 @@ textarea {
 
 .section_box {
   min-height: 0;
-  width: auto;
+  /* width: auto; */
 }
 
-.section_hero {
+/* .section_hero {
   margin-bottom: 15rem;
-}
+} */
 
 .form-left {
   display: flex;
