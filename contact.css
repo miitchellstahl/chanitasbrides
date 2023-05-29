@@ -28,6 +28,10 @@ textarea {
   cursor: pointer;
 }
 
+.form-bottom button:hover {
+  cursor: pointer;
+}
+
 textarea {
   padding-top: 1rem;
 }
@@ -91,9 +95,15 @@ textarea {
 }
 
 .form-bottom button {
-  background-color: #643072;
+  background-color: #73477d;
   width: 10rem;
   font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 890px) {
+  .temple {
+    width: 16.5rem;
+  }
 }
 
 @media only screen and (max-width: 800px) {
